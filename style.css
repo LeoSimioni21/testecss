@@ -1,7 +1,8 @@
 .container{
-    background-color: rgb(180, 178, 182);
+    background-color: rgb(32, 173, 79);
     display: flex;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
     height: 80px;
 }
 
@@ -9,9 +10,14 @@
     color: rgb(7, 7, 7);
     display: flex;
     justify-content: space-between;
+    margin: 0% 1rem;
 }
 
 body{
     margin: 0%;
     
+}
+.icon{
+   margin-right: 30px;
+
 }
