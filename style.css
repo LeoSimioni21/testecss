@@ -1,0 +1,17 @@
+.container{
+    background-color: rgb(180, 178, 182);
+    display: flex;
+    justify-content:space-between;
+    height: 80px;
+}
+
+.logo{
+    color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    margin: 0%;
+
+}
