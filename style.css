@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(32, 173, 79);
+    background-color: rgb(137, 209, 161);
     display: flex;
     align-items: center;
     height: 80px;
@@ -7,19 +7,31 @@
 }
 
 .logo{
-    color: rgb(7, 7, 7);
-    display: flex;
-    justify-content: space-between;
-    margin: 0% 1rem;
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    width: 200px;
+    cursor: pointer;
 }
+.logo h3:hover{
+    opacity: 0.10;
+}
+
 
 body{
-    margin: 0%;
-    background-color: rgb(255, 255, 255);
+    margin: 0px;
+
 }
 .icon{
-   margin-right: 30px;
+    
+    width: 82%;
+    margin: auto;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
 
+}
+
+.icon:hover{
+    opacity: 0.10;
 }
 
 
@@ -29,10 +41,9 @@ body{
     justify-content:center;
     border-radius: 15px;
     height: 350px;
-    margin: 15px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    margin: 7px;
+
+
 }
 .shar{
 
@@ -40,13 +51,14 @@ body{
    color: aliceblue;
     
 }
+
 .container2{
     background-color: rgb(33, 26, 41);
     display: flex;
     border-radius: 15px;
     height: 350px;
     width: 50%;
-    margin: 15px;
+    margin: 7px;
     justify-content: center;
 }
 
@@ -59,22 +71,93 @@ body{
 .cnt_pai{
     display: flex;
     text-align: center;
-    margin: auto;
+
 }
 
 
 .container3{
     width:auto;
     background-color:rgb(33, 26, 41);
-    height: 470px;
+    height: 480px;
     border-radius: 15px;
-    margin: 15px;
-    justify-content:space-a
-    
+    justify-content:space-around;
+    margin: 7px;
 }
 
 .shaar{ 
  text-align: center;
  color: aliceblue;
+
+}
+
+html,body{height: 100%;}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.sidebar{
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+
+}
+.sidebar h3{
+    color:rgb(21, 22, 22);
+    margin-left: 5px;
+    margin: 10px;
+}
+
+.sidebar a  {
+
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none; 
+    margin-top: 10px;
+    color: rgb(51, 50, 50);
+}
+.content{
+    width: 80%;
+    background-color: rgb(245, 230, 225);
+    
+}
+.sidebar a.sidebaractive{
+    border-left: 3px solid #2b2525;
+    background-color: #afa6a6;
+    color: #2b2525;
+    font-weight: bold;
+
+}
+.sidebar a:hover{
+    border-left: 3px solid #2b2525;
+    background-color: #afa6a6;
+    color: #2b2525;
+    font-weight: bold;
+
+
+}
+.titulo{
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.box-info{
+    width: 100%;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.box-single{
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(190, 172, 172);
+    display: flex;
+    padding: 20px;
+    margin: 0 10px;
+    width: 100%;
 
 }
