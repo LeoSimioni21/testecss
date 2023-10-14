@@ -2,8 +2,8 @@
     background-color: rgb(32, 173, 79);
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 80px;
+
 }
 
 .logo{
@@ -15,9 +15,58 @@
 
 body{
     margin: 0%;
-    
 }
 .icon{
    margin-right: 30px;
 
+}
+
+
+.header{
+    width: 50%;
+    background-color: rgb(132, 0, 255);
+    justify-content:center;
+    border-radius: 15px;
+    height: 350px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.shar{
+
+   text-align: center;
+    
+}
+.container2{
+    background-color: rgb(132, 0, 255);
+    display: flex;
+    border-radius: 12px;
+    height: 350px;
+    width: 50%;
+    margin: 15px;
+}
+
+.share{
+   text-align: center;
+}
+
+
+.cnt_pai{
+    display: flex;
+
+}
+
+
+.container3{
+    width:auto;
+    background-color:rgb(132, 0, 255);
+    height: 470px;
+    border-radius: 15px;
+    margin: 15px;
+    justify-content:space-between;
+}
+
+.shaar{ 
+ text-align: center;
 }
