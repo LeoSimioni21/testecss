@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(71, 71, 75);
+    background-color: #202c33;
     display: flex;
     align-items: center;
     height: 80px;
@@ -121,7 +121,7 @@ html,body{height: 100%;}
 }
 .content{
     width: 85%;
-    background-color: rgb(71, 71, 75);
+    background-color: #202c33;
     
 }
 .sidebar a.sidebaractive{
