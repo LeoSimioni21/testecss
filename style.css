@@ -20,7 +20,7 @@
 
 
 body{
-    margin: 0px;
+    margin: 0;
 
 }
 .icon{
@@ -126,26 +126,41 @@ html,body{height: 100%;}
 }
 .boxmajor{
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgb(190, 172, 172);
     display: flex;
-    padding: 20%;
+    padding: 10%;
+    align-items: flex-start;
+    height: 150px;
 }
 
 
 .titulowhat{
 padding: 15px;
-justify-content: space-between;
+justify-content: space-around;
+
 
 
 }
 .textaline{
     color: #2b2525;
     text-decoration: none;
-
+    transition: 0.9s;
 }
 
 .textaline:hover{
     opacity: 0.20;
 
+}
+.textmajor h1{
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    transition: 0.9s;
+    margin-left: 5px;
+}
+footer h4{
+    background-color: #202c33 ;
+    color: #afa6a6;
+    text-align: center;
+    padding: 65px;
 }
