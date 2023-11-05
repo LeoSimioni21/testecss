@@ -145,7 +145,7 @@ justify-content: space-around;
 .textaline{
     color: #2b2525;
     text-decoration: none;
-    transition: 0.9s;
+    transition: 0.2s;
     
 
 }
@@ -154,10 +154,16 @@ justify-content: space-around;
     opacity: 0.20;
 
 }
-.textmajor h1{
+
+.textmajorr:hover{
+
+    opacity: 0.20;
+}
+.textmajorr{
     color: rgb(0, 0, 0);
-    transition: 0.9s;
-    margin-left: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+   
 
 }
 footer h4{
